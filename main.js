@@ -64,7 +64,7 @@ const posts = [
     id: 6,
     content:
       'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-    media: 'https://unsplash.it/600/400?image=534',
+    media: 'https://unsplash.it/600/400?image=538',
     author: {
       name: 'Stefano Bichicchi',
       image: 'https://unsplash.it/300/300?image=27',
@@ -73,7 +73,55 @@ const posts = [
     created: '2021-03-10',
   },
   {
-    id: 5,
+    id: 7,
+    content:
+      'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
+    media: 'https://unsplash.it/600/400?image=538',
+    author: {
+      name: 'Alessandro Sainato',
+      image: 'https://unsplash.it/300/300?image=29',
+    },
+    likes: 95,
+    created: '2021-03-05',
+  },
+  {
+    id: 8,
+    content:
+      'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
+    media: 'https://unsplash.it/600/400?image=538',
+    author: {
+      name: 'Alessandro Sainato',
+      image: 'https://unsplash.it/300/300?image=29',
+    },
+    likes: 95,
+    created: '2021-03-05',
+  },
+  {
+    id: 9,
+    content:
+      'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
+    media: 'https://unsplash.it/600/400?image=538',
+    author: {
+      name: 'Alessandro Sainato',
+      image: 'https://unsplash.it/300/300?image=29',
+    },
+    likes: 95,
+    created: '2021-03-05',
+  },
+  {
+    id: 10,
+    content:
+      'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
+    media: 'https://unsplash.it/600/400?image=538',
+    author: {
+      name: 'Alessandro Sainato',
+      image: 'https://unsplash.it/300/300?image=29',
+    },
+    likes: 95,
+    created: '2021-03-05',
+  },
+  {
+    id: 11,
     content:
       'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
     media: 'https://unsplash.it/600/400?image=534',
@@ -85,97 +133,49 @@ const posts = [
     created: '2021-03-05',
   },
   {
-    id: 5,
+    id: 12,
     content:
       'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-    media: 'https://unsplash.it/600/400?image=534',
+    media: 'https://unsplash.it/600/400?image=574',
     author: {
       name: 'Alessandro Sainato',
-      image: 'https://unsplash.it/300/300?image=29',
+      image: 'https://unsplash.it/300/300?image=79',
     },
     likes: 95,
     created: '2021-03-05',
   },
   {
-    id: 5,
+    id: 13,
     content:
       'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-    media: 'https://unsplash.it/600/400?image=534',
+    media: 'https://unsplash.it/600/400?image=334',
     author: {
-      name: 'Alessandro Sainato',
-      image: 'https://unsplash.it/300/300?image=29',
+      name: 'Piero Guerra',
+      image: '',
+    },
+    likes: 5,
+    created: '2021-03-05',
+  },
+  {
+    id: 14,
+    content:
+      'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
+    media: 'https://unsplash.it/600/400?image=500',
+    author: {
+      name: 'Alessandro Barbuffo',
+      image: 'https://unsplash.it/300/300?image=89',
     },
     likes: 95,
     created: '2021-03-05',
   },
   {
-    id: 5,
+    id: 15,
     content:
       'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-    media: 'https://unsplash.it/600/400?image=534',
+    media: 'https://unsplash.it/600/400?image=524',
     author: {
-      name: 'Alessandro Sainato',
-      image: 'https://unsplash.it/300/300?image=29',
-    },
-    likes: 95,
-    created: '2021-03-05',
-  },
-  {
-    id: 5,
-    content:
-      'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-    media: 'https://unsplash.it/600/400?image=534',
-    author: {
-      name: 'Alessandro Sainato',
-      image: 'https://unsplash.it/300/300?image=29',
-    },
-    likes: 95,
-    created: '2021-03-05',
-  },
-  {
-    id: 5,
-    content:
-      'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-    media: 'https://unsplash.it/600/400?image=534',
-    author: {
-      name: 'Alessandro Sainato',
-      image: 'https://unsplash.it/300/300?image=29',
-    },
-    likes: 95,
-    created: '2021-03-05',
-  },
-  {
-    id: 5,
-    content:
-      'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-    media: 'https://unsplash.it/600/400?image=534',
-    author: {
-      name: 'Alessandro Sainato',
-      image: 'https://unsplash.it/300/300?image=29',
-    },
-    likes: 95,
-    created: '2021-03-05',
-  },
-  {
-    id: 5,
-    content:
-      'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-    media: 'https://unsplash.it/600/400?image=534',
-    author: {
-      name: 'Alessandro Sainato',
-      image: 'https://unsplash.it/300/300?image=29',
-    },
-    likes: 95,
-    created: '2021-03-05',
-  },
-  {
-    id: 5,
-    content:
-      'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-    media: 'https://unsplash.it/600/400?image=534',
-    author: {
-      name: 'Alessandro Sainato',
-      image: 'https://unsplash.it/300/300?image=29',
+      name: 'Giorgio Sainato',
+      image: 'https://unsplash.it/300/300?image=39',
     },
     likes: 95,
     created: '2021-03-05',
@@ -209,11 +209,11 @@ function createPost(postData) {
     const names = postData.author.name.split(' ');
     const monogram = names[0].charAt(0).toUpperCase() + names[1].charAt(0).toUpperCase();
 
-    const postMetaMonogram = document.createElement('h2');
-    postMetaMonogram.classList.add('post-meta__monogram');
-    postMetaMonogram.innerText = monogram;
+    const profilePicDefault = document.createElement('h2');
+    profilePicDefault.classList.add('profile-pic-default');
+    profilePicDefault.innerText = monogram;
 
-    postMetaIcon.appendChild(postMetaMonogram);
+    postMetaIcon.appendChild(profilePicDefault);
   }
 
   const postMetaData = document.createElement('div');
