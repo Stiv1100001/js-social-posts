@@ -181,6 +181,7 @@ const posts = [
     created: '2021-03-05',
   },
 ];
+const likedPost = [];
 
 function createPost(postData) {
   const post = document.createElement('div');
@@ -278,6 +279,9 @@ posts.forEach((post) => {
 document.querySelectorAll('.js-like-button').forEach((btn) => {
   btn.addEventListener('click', (event) => {
     event.currentTarget.classList.toggle('like-button--liked');
+
+    if (event.currentTarget.classList.contains('like-button--liked'))
+      likedPost.push(event.currentTarget);
 
     const id = event.currentTarget['data-postid'];
     const likesPlace = document.getElementById('like-counter-' + id);
