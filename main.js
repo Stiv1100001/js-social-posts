@@ -257,7 +257,7 @@ function createPost(postData) {
 
   const likeButton = document.createElement('a');
   likeButton.classList.add('like-button', 'js-like-button');
-  likeButton.href = '#';
+  //likeButton.href = '#';
   likeButton['data-postid'] = postData.id;
   likeButton.innerHTML = `<i class="like-button__icon fas fa-thumbs-up" aria-hidden="true"></i>
                             <span class="like-button__label">Mi Piace</span>`;
@@ -273,4 +273,19 @@ function createPost(postData) {
 
 posts.forEach((post) => {
   container.appendChild(createPost(post));
+});
+
+document.querySelectorAll('.js-like-button').forEach((btn) => {
+  btn.addEventListener('click', (event) => {
+    event.currentTarget.classList.toggle('like-button--liked');
+
+    const id = event.currentTarget['data-postid'];
+    const likesPlace = document.getElementById('like-counter-' + id);
+    const likes = parseInt(likesPlace.innerHTML);
+    const newLike = event.currentTarget.classList.contains('like-button--liked')
+      ? likes - 1
+      : likes + 1;
+
+    likesPlace.innerHTML = newLike;
+  });
 });
