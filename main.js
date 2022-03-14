@@ -227,7 +227,7 @@ function createPost(postData) {
 
   const postMetaTime = document.createElement('div');
   postMetaTime.classList.add('post-meta__time');
-  postMetaTime.innerText = postData.created;
+  postMetaTime.innerText = new Date(postData.created).toLocaleDateString();
   postMetaData.appendChild(postMetaTime);
 
   const postText = document.createElement('div');
@@ -283,8 +283,8 @@ document.querySelectorAll('.js-like-button').forEach((btn) => {
     const likesPlace = document.getElementById('like-counter-' + id);
     const likes = parseInt(likesPlace.innerHTML);
     const newLike = event.currentTarget.classList.contains('like-button--liked')
-      ? likes - 1
-      : likes + 1;
+      ? likes + 1
+      : likes - 1;
 
     likesPlace.innerHTML = newLike;
   });
